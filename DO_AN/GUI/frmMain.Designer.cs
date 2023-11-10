@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(x));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -42,9 +43,7 @@
             this.mnuHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHoaDonBan = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuTimKiem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFindHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFindHang = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFindKhachHang = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBaoCao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBCHangTon = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBCDoanhThu = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,10 +52,8 @@
             this.mnuVaiNet = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -84,7 +81,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1184, 37);
+            this.menuStrip1.Size = new System.Drawing.Size(1225, 37);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -163,33 +160,18 @@
             // mnuTimKiem
             // 
             this.mnuTimKiem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuFindHoaDon,
-            this.mnuFindHang,
-            this.mnuFindKhachHang});
+            this.mnuFindHang});
             this.mnuTimKiem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.mnuTimKiem.Name = "mnuTimKiem";
             this.mnuTimKiem.Size = new System.Drawing.Size(98, 29);
             this.mnuTimKiem.Text = "Tìm kiếm";
             // 
-            // mnuFindHoaDon
-            // 
-            this.mnuFindHoaDon.Name = "mnuFindHoaDon";
-            this.mnuFindHoaDon.Size = new System.Drawing.Size(190, 30);
-            this.mnuFindHoaDon.Text = "Hóa đơn";
-            this.mnuFindHoaDon.Click += new System.EventHandler(this.mnuFindHoaDon_Click);
-            // 
             // mnuFindHang
             // 
             this.mnuFindHang.Name = "mnuFindHang";
-            this.mnuFindHang.Size = new System.Drawing.Size(190, 30);
+            this.mnuFindHang.Size = new System.Drawing.Size(224, 30);
             this.mnuFindHang.Text = "Hàng";
             this.mnuFindHang.Click += new System.EventHandler(this.mnuFindHang_Click);
-            // 
-            // mnuFindKhachHang
-            // 
-            this.mnuFindKhachHang.Name = "mnuFindKhachHang";
-            this.mnuFindKhachHang.Size = new System.Drawing.Size(190, 30);
-            this.mnuFindKhachHang.Text = "Khách hàng";
             // 
             // mnuBaoCao
             // 
@@ -204,13 +186,13 @@
             // mnuBCHangTon
             // 
             this.mnuBCHangTon.Name = "mnuBCHangTon";
-            this.mnuBCHangTon.Size = new System.Drawing.Size(182, 30);
+            this.mnuBCHangTon.Size = new System.Drawing.Size(224, 30);
             this.mnuBCHangTon.Text = "Hàng tồn";
             // 
             // mnuBCDoanhThu
             // 
             this.mnuBCDoanhThu.Name = "mnuBCDoanhThu";
-            this.mnuBCDoanhThu.Size = new System.Drawing.Size(182, 30);
+            this.mnuBCDoanhThu.Size = new System.Drawing.Size(224, 30);
             this.mnuBCDoanhThu.Text = "Doanh thu";
             // 
             // mnuTroGiup
@@ -239,7 +221,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(257, 103);
+            this.label1.Location = new System.Drawing.Point(316, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(610, 74);
             this.label1.TabIndex = 3;
@@ -248,33 +230,22 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DO_AN.Properties.Resources.atf1016_22_bea414ee2eee402b96a0262a93217012_grande;
-            this.pictureBox1.Location = new System.Drawing.Point(223, 254);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 114);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(354, 309);
+            this.pictureBox1.Size = new System.Drawing.Size(1225, 585);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::DO_AN.Properties.Resources.atf1008_11_3757a80b84f84bb896f9181cad83f992_grande;
-            this.pictureBox2.Location = new System.Drawing.Point(608, 254);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(321, 309);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
             // 
             // x
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(1184, 639);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.ClientSize = new System.Drawing.Size(1225, 698);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MainMenuStrip = this.menuStrip1;
@@ -286,7 +257,6 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,9 +277,7 @@
         private ToolStripMenuItem mnuHoaDon;
         private ToolStripMenuItem mnuHoaDonBan;
         private ToolStripMenuItem mnuTimKiem;
-        private ToolStripMenuItem mnuFindHoaDon;
         private ToolStripMenuItem mnuFindHang;
-        private ToolStripMenuItem mnuFindKhachHang;
         private ToolStripMenuItem mnuBaoCao;
         private ToolStripMenuItem mnuBCHangTon;
         private ToolStripMenuItem mnuBCDoanhThu;
@@ -318,6 +286,5 @@
         private ToolStripMenuItem mnuVaiNet;
         private Label label1;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
     }
 }

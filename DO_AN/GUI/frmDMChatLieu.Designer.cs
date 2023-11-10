@@ -130,11 +130,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Unicode MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(374, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 38);
+            this.label1.Size = new System.Drawing.Size(333, 32);
             this.label1.TabIndex = 5;
             this.label1.Text = "DANH MỤC CHẤT LIỆU";
             // 
@@ -181,6 +181,7 @@
             // 
             // dgvChatLieu
             // 
+            this.dgvChatLieu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChatLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChatLieu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaChatLieu,
@@ -203,14 +204,12 @@
             this.MaChatLieu.HeaderText = "Mã Chất Liệu";
             this.MaChatLieu.MinimumWidth = 6;
             this.MaChatLieu.Name = "MaChatLieu";
-            this.MaChatLieu.Width = 125;
             // 
             // TenChatLieu
             // 
             this.TenChatLieu.HeaderText = "Tên Chất Liệu";
             this.TenChatLieu.MinimumWidth = 6;
             this.TenChatLieu.Name = "TenChatLieu";
-            this.TenChatLieu.Width = 125;
             // 
             // frmDMChatLieu
             // 

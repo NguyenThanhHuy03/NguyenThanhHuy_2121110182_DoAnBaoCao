@@ -14,10 +14,10 @@ namespace DO_AN.DAL
         {
             public static bool ValidateLoginCredentials(string username, string password)
             {
-                string connectionString = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=QLBH;Integrated Security=True";
+                string connectionString = "Data Source=msi\\sqlexpress;Initial Catalog=QuanLyBanHang;Integrated Security=True";
 
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
+                    using (SqlConnection connection = new SqlConnection(connectionString))
+                   {
                     connection.Open();
 
                     string query = "SELECT COUNT(*) FROM Users WHERE Username = @Username AND Password = @Password";

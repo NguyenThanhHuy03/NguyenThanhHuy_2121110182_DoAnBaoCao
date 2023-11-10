@@ -127,10 +127,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Unicode MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(421, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(408, 40);
+            this.label1.Size = new System.Drawing.Size(402, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "DANH MỤC KHÁCH HÀNG";
             // 
@@ -172,6 +172,7 @@
             // 
             // dgvKhachHang
             // 
+            this.dgvKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -194,7 +195,6 @@
             this.Column1.HeaderText = "Mã Khách";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
             // 
             // Column2
             // 
@@ -202,7 +202,6 @@
             this.Column2.HeaderText = "Tên Khách";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
             // 
             // Column3
             // 
@@ -210,7 +209,6 @@
             this.Column3.HeaderText = "Địa Chỉ";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
             // 
             // Column4
             // 
@@ -218,7 +216,6 @@
             this.Column4.HeaderText = "Điện Thoại";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
             // 
             // panel2
             // 

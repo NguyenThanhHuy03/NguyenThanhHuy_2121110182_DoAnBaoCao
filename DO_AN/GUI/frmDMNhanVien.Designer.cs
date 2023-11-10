@@ -94,15 +94,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Unicode MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(421, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(370, 40);
+            this.label1.Size = new System.Drawing.Size(367, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "DANH MỤC NHÂN VIÊN";
             // 
             // dgvNhanVien
             // 
+            this.dgvNhanVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNhanVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -129,7 +130,6 @@
             this.Column1.HeaderText = "Mã Nhân Viên";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
             // 
             // Column2
             // 
@@ -137,7 +137,6 @@
             this.Column2.HeaderText = "Tên Nhân Viên";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
             // 
             // Column3
             // 
@@ -145,7 +144,6 @@
             this.Column3.HeaderText = "Giới Tính";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
             // 
             // Column4
             // 
@@ -153,7 +151,6 @@
             this.Column4.HeaderText = "Địa Chỉ";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
             // 
             // Column5
             // 
@@ -161,7 +158,6 @@
             this.Column5.HeaderText = "Điện Thoại";
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
-            this.Column5.Width = 125;
             // 
             // Column6
             // 
@@ -169,7 +165,6 @@
             this.Column6.HeaderText = "Ngày Sinh";
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
-            this.Column6.Width = 125;
             // 
             // panel2
             // 
