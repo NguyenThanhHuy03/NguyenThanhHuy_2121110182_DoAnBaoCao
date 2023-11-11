@@ -40,6 +40,7 @@
             this.mnuNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuKhachHang = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHangHoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuThuongHieu = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHoaDonBan = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuTimKiem = new System.Windows.Forms.ToolStripMenuItem();
@@ -107,7 +108,8 @@
             this.mnuChatLieu,
             this.mnuNhanVien,
             this.mnuKhachHang,
-            this.mnuHangHoa});
+            this.mnuHangHoa,
+            this.mnuThuongHieu});
             this.mnuDanhMuc.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.mnuDanhMuc.Name = "mnuDanhMuc";
             this.mnuDanhMuc.Size = new System.Drawing.Size(107, 29);
@@ -116,30 +118,36 @@
             // mnuChatLieu
             // 
             this.mnuChatLieu.Name = "mnuChatLieu";
-            this.mnuChatLieu.Size = new System.Drawing.Size(190, 30);
+            this.mnuChatLieu.Size = new System.Drawing.Size(224, 30);
             this.mnuChatLieu.Text = "Chất liệu";
             this.mnuChatLieu.Click += new System.EventHandler(this.mnuChatLieu_Click);
             // 
             // mnuNhanVien
             // 
             this.mnuNhanVien.Name = "mnuNhanVien";
-            this.mnuNhanVien.Size = new System.Drawing.Size(190, 30);
+            this.mnuNhanVien.Size = new System.Drawing.Size(224, 30);
             this.mnuNhanVien.Text = "Nhân viên";
             this.mnuNhanVien.Click += new System.EventHandler(this.mnuNhanVien_Click);
             // 
             // mnuKhachHang
             // 
             this.mnuKhachHang.Name = "mnuKhachHang";
-            this.mnuKhachHang.Size = new System.Drawing.Size(190, 30);
+            this.mnuKhachHang.Size = new System.Drawing.Size(224, 30);
             this.mnuKhachHang.Text = "Khách hàng";
             this.mnuKhachHang.Click += new System.EventHandler(this.mnuKhachHang_Click);
             // 
             // mnuHangHoa
             // 
             this.mnuHangHoa.Name = "mnuHangHoa";
-            this.mnuHangHoa.Size = new System.Drawing.Size(190, 30);
+            this.mnuHangHoa.Size = new System.Drawing.Size(224, 30);
             this.mnuHangHoa.Text = "Hàng hóa";
             this.mnuHangHoa.Click += new System.EventHandler(this.mnuHangHoa_Click);
+            // 
+            // mnuThuongHieu
+            // 
+            this.mnuThuongHieu.Name = "mnuThuongHieu";
+            this.mnuThuongHieu.Size = new System.Drawing.Size(224, 30);
+            this.mnuThuongHieu.Text = "Thương hiệu";
             // 
             // mnuHoaDon
             // 
@@ -169,7 +177,7 @@
             // mnuFindHang
             // 
             this.mnuFindHang.Name = "mnuFindHang";
-            this.mnuFindHang.Size = new System.Drawing.Size(224, 30);
+            this.mnuFindHang.Size = new System.Drawing.Size(141, 30);
             this.mnuFindHang.Text = "Hàng";
             this.mnuFindHang.Click += new System.EventHandler(this.mnuFindHang_Click);
             // 
@@ -186,13 +194,13 @@
             // mnuBCHangTon
             // 
             this.mnuBCHangTon.Name = "mnuBCHangTon";
-            this.mnuBCHangTon.Size = new System.Drawing.Size(224, 30);
+            this.mnuBCHangTon.Size = new System.Drawing.Size(182, 30);
             this.mnuBCHangTon.Text = "Hàng tồn";
             // 
             // mnuBCDoanhThu
             // 
             this.mnuBCDoanhThu.Name = "mnuBCDoanhThu";
-            this.mnuBCDoanhThu.Size = new System.Drawing.Size(224, 30);
+            this.mnuBCDoanhThu.Size = new System.Drawing.Size(182, 30);
             this.mnuBCDoanhThu.Text = "Doanh thu";
             // 
             // mnuTroGiup
@@ -286,5 +294,6 @@
         private ToolStripMenuItem mnuVaiNet;
         private Label label1;
         private PictureBox pictureBox1;
+        private ToolStripMenuItem mnuThuongHieu;
     }
 }

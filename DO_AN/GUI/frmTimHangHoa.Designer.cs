@@ -47,6 +47,7 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHang)).BeginInit();
@@ -106,6 +107,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.txtTenHang);
             this.panel1.Controls.Add(this.txtMaHang);
             this.panel1.Controls.Add(this.label5);
@@ -118,14 +120,14 @@
             // 
             // txtTenHang
             // 
-            this.txtTenHang.Location = new System.Drawing.Point(457, 164);
+            this.txtTenHang.Location = new System.Drawing.Point(423, 162);
             this.txtTenHang.Name = "txtTenHang";
             this.txtTenHang.Size = new System.Drawing.Size(444, 30);
             this.txtTenHang.TabIndex = 10;
             // 
             // txtMaHang
             // 
-            this.txtMaHang.Location = new System.Drawing.Point(457, 102);
+            this.txtMaHang.Location = new System.Drawing.Point(423, 100);
             this.txtMaHang.Name = "txtMaHang";
             this.txtMaHang.Size = new System.Drawing.Size(444, 30);
             this.txtMaHang.TabIndex = 6;
@@ -134,7 +136,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(287, 164);
+            this.label5.Location = new System.Drawing.Point(253, 162);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 23);
             this.label5.TabIndex = 4;
@@ -144,7 +146,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(287, 106);
+            this.label1.Location = new System.Drawing.Point(253, 104);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 23);
             this.label1.TabIndex = 0;
@@ -239,6 +241,16 @@
             this.Column8.Name = "Column8";
             this.Column8.ReadOnly = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(482, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(245, 36);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "TÌM HÀNG HOÁ";
+            // 
             // frmTimHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
@@ -283,5 +295,6 @@
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column7;
         private DataGridViewTextBoxColumn Column8;
+        private Label label2;
     }
 }

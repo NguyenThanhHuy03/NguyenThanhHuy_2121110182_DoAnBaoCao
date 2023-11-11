@@ -549,10 +549,7 @@ namespace DO_AN.GUI
                     words += $"{ones[onesDigit]}";
                 }
             }
-            else if (tens == 1)
-            {
-                words += $"{ones[tens * 10 + onesDigit]}";
-            }
+            
             else
             {
                 words += $"{ones[tens]} Mươi ";

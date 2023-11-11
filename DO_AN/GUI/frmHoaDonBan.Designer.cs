@@ -609,9 +609,9 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(435, 85);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(85, 20);
+            this.label14.Size = new System.Drawing.Size(153, 20);
             this.label14.TabIndex = 21;
-            this.label14.Text = "Giảm giá %";
+            this.label14.Text = "                                    ";
             // 
             // label13
             // 

@@ -16,7 +16,7 @@ namespace DO_AN.DAL
         public SqlConnection CreateConnection()
         {
             SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = @"Data Source=MSI\SQLEXPRESS;Initial Catalog=QuanLyBanHang;Integrated Security=True";
+            conn.ConnectionString = @"Data Source=msi\sqlexpress;Initial Catalog=QLBH;Integrated Security=True";
             return conn;
         }
     }

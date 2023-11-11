@@ -15,7 +15,9 @@ namespace DO_AN.GUI
         public x()
         {
             InitializeComponent();
+            this.mnuThuongHieu.Click += new System.EventHandler(this.mnuThuongHieu_Click);
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -38,6 +40,7 @@ namespace DO_AN.GUI
             frmChatLieu.Enabled = true;
             frmChatLieu.ShowDialog(); 
         }
+       
 
         private void mnuNhanVien_Click(object sender, EventArgs e)
         {
@@ -74,7 +77,14 @@ namespace DO_AN.GUI
             frmTimHangHoa frmtimhanghoa = new frmTimHangHoa();
             frmtimhanghoa.ShowDialog();
         }
+        private void mnuThuongHieu_Click(object sender, EventArgs e)
+        {
+            // Tạo một instance mới của form thương hiệu
+            frmThuongHieu formThuongHieu = new frmThuongHieu();
 
+            // Hiển thị form thương hiệu
+            formThuongHieu.ShowDialog();
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
