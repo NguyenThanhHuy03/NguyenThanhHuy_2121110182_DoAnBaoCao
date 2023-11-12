@@ -145,7 +145,7 @@
             this.dgvThuongHieu.Name = "dgvThuongHieu";
             this.dgvThuongHieu.RowHeadersWidth = 51;
             this.dgvThuongHieu.RowTemplate.Height = 29;
-            this.dgvThuongHieu.Size = new System.Drawing.Size(1197, 269);
+            this.dgvThuongHieu.Size = new System.Drawing.Size(1206, 269);
             this.dgvThuongHieu.TabIndex = 14;
             this.dgvThuongHieu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvThuongHieu_CellClick_1);
             this.dgvThuongHieu.SelectionChanged += new System.EventHandler(this.dgvThuongHieu_SelectionChanged_1);
